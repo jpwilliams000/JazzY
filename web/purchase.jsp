@@ -330,7 +330,7 @@
     
     public double calculateTotalBill(int ticketQuantityI, int ticketQuantityII, int ticketQuantityIII, double shipCost, double processingRate){
         double totalBill = 0;
-        totalBill = ((ticketQuantityI*ticketPriceI + ticketQuantityII*ticketPriceII + ticketQuantityIII*ticketPriceIII)*(1+processingRate)+(shipCost));
+        totalBill = (((ticketQuantityI*ticketPriceI + ticketQuantityII*ticketPriceII + ticketQuantityIII*ticketPriceIII)*(1+processingRate))+(shipCost));
         return totalBill;
     }
     
