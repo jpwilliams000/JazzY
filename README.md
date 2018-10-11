@@ -1,6 +1,6 @@
 # JazzY
 Live Link: (dev-branch)
-https://glacial-lowlands-99911.herokuapp.com/index.jsp
+https://ticketsalesapp.herokuapp.com/
 
 A <strong>ongoing</strong> group collaborative project, with the intention of designing a JSP web application that processes user input, stores and tracks data with embedded database, and then displays the information.
 
